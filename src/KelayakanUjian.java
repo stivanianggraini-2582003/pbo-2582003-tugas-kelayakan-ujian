@@ -32,5 +32,25 @@ public class KelayakanUjian {
         boolean x = (kehadiran >= 75) && (cek++ >= 0);
 
         boolean y = (nilaiTugas >= 60) || (cek++ >= 0);
+
+        // Output hasil
+        System.out.println();
+        System.out.println("===== KELAYAKAN UJIAN =====");
+
+        System.out.println("Kehadiran    : " + kehadiran + "%");
+        System.out.println("Nilai tugas  : " + nilaiTugas);
+        System.out.println("Dispensasi   : " + dispensasi);
+
+        System.out.println();
+
+        System.out.println("a (tanpa kurung)   : " + a);
+        System.out.println("b (kurung precedence) : " + b);
+        System.out.println("c (kurung digeser) : " + c);
+
+        System.out.println("!dispensasi       : " + tidakDispensasi);
+
+        System.out.println("cek dipanggil     : " + cek);
+
+        scanner.close();
     }
 }
