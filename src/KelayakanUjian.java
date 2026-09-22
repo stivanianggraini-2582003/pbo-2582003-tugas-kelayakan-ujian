@@ -4,3 +4,15 @@ public class KelayakanUjian {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+
+        // Input data dari pengguna
+        System.out.print("Kehadiran (%) : ");
+        int kehadiran = scanner.nextInt();
+
+        System.out.print("Nilai tugas   : ");
+        int nilaiTugas = scanner.nextInt();
+
+        System.out.print("Dispensasi     : ");
+        boolean dispensasi = scanner.nextBoolean();
+    }
+}
